@@ -1,0 +1,6 @@
+For the second problem I did not manage to create an interface and finish the problem
+In the folder you can see that I tried using the compiler to navigate through the options.
+That is because I had a hard time creating an UI in Intellij
+
+I will also attach my IntelliJ project even if I do not know why it does not work,I created 
+some windows and connected them,but the app won't start.Thank you !!
