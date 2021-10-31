@@ -1,0 +1,54 @@
+I did the PHARMACY problem in APEX ORACLE ,I do not know why but what is specified below is not
+included in the sql file,that is why I also wrote it here.
+
+My first idea was to create another table and introduce all the data needed in the exercises
+in that table,but I did not manage to do that,so I did it this way.
+
+//
+
+this is how I inserted data in the tables
+one example is:
+INSERT INTO "ORDERS" values (4,'phar_1','NurofenFORTE',8,'analgezice','218','02/07/2021')
+
+POINT 1
+
+//
+
+SELECT COUNT(DISTINCT ORDER_ID)
+FROM ORDERS
+WHERE PHARMACY_ID='phar_1' and ORDER_DATE between '08/01/2021' and '8/31/2021'
+
+//
+
+SELECT SUM(PRODUCT_PRICE)
+FROM ORDERS
+WHERE PHARMACY_ID='phar_1' and ORDER_DATE between '08/01/2021' and '08/31/2021'
+
+//
+
+SELECT AVG(PRODUCT_PRICE)
+FROM ORDERS
+WHERE PHARMACY_ID='phar_1' and ORDER_DATE between '08/01/2021' and '08/31/2021'
+
+//
+
+
+POINT 2
+
+//
+used count distinct to avoid duplicate ORDER_ID 
+
+SELECT COUNT(DISTINCT ORDER_ID)
+FROM ORDERS
+WHERE PHARMACY_ID='phar_2' and ORDER_DATE between '01/01/2021' and '12/31/2021' and PRODUCT_CATEGORY='antibiotice'
+
+//
+
+
+POINT 3
+
+//
+
+did not manage to do this
+
+//
