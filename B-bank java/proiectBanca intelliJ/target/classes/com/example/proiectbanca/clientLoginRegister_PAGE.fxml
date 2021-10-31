@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="376" prefWidth="553" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.proiectbanca.ClientLoginRegisterPAGE">
+   <children>
+      <Text layoutX="130.0" layoutY="64.0" strokeType="OUTSIDE" strokeWidth="0.0" text="In cazul unui cont de CLIENT existent">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="193.0" layoutY="89.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Apasati acest buton :">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Button layoutX="183.0" layoutY="105.0" mnemonicParsing="false" onAction="#onButtonClickActionLogIn" prefHeight="32.0" prefWidth="185.0" text="INTRA IN CONT">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Text layoutX="121.0" layoutY="237.0" strokeType="OUTSIDE" strokeWidth="0.0" text="In cazul in care nu aveti cont de CLIENT">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="194.0" layoutY="261.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Apasati acest buton :">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Button layoutX="183.0" layoutY="278.0" mnemonicParsing="false" onAction="#onButtonClickActionSignIn" prefHeight="32.0" prefWidth="185.0" text="CREATI UN CONT">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
