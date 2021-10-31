@@ -1,9 +1,6 @@
 I did the PHARMACY problem in APEX ORACLE ,I do not know why but what is specified below is not
 included in the sql file,that is why I also wrote it here.
 
-My first idea was to create another table and introduce all the data needed in the exercises
-in that table,but I did not manage to do that,so I did it this way.
-
 //
 
 this is how I inserted data in the tables
