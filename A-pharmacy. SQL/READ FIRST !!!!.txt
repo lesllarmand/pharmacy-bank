@@ -1,5 +1,5 @@
 I did the PHARMACY problem in APEX ORACLE ,I do not know why but what is specified below is not
-included in the sql file,that is why I also wrote it here.
+included in the sql file,that is why I wrote it here.
 
 //
 
